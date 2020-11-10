@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">needwheat</string>
+    <string name="app_name">NeedWheat</string>
+    <string name="shopkeeper">Welcome Sir!How can I help you?</string>
+    <string name="text">Enter amount </string>
 </resources>
