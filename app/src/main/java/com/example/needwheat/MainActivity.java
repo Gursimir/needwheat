@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
                 },1000);
                 int flourAmount = Integer.parseInt(amount),count3 = 0,count5 = 0;
                 while (flourAmount>=5 || flourAmount == 3){
-                    if(flourAmount %3 == 0){
+                    if(flourAmount == 3 || flourAmount == 6 || flourAmount == 9){
                         flourAmount = flourAmount-3;
                         count3++;
                     }else{
@@ -67,12 +67,12 @@ public class MainActivity extends AppCompatActivity {
                     public void run() {
                         imageView3.setImageResource(R.drawable.male_avatar);
                         if(finalFlourAmount <3){
-                            textView3.setText("There you have your "+amount+" kg of wheat flour packed in "+count_5+" 5Kg bags and "+count_3+" 3kg bags");
+                            textView3.setText("There you have your "+amount+" kg of wheat flour packed in "+count_5+" 5Kg bags and "+count_3+" 3kg bags.");
                         }else {
                             textView3.setText("Sorry we cant put the amount you want into 5 and 3kg bags.");
                         }
                     }
-                },1000);
+                },2000);
 
                 new Handler().postDelayed(new Runnable() {
                     @Override
@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
                         imageView4.setImageResource(R.drawable.female_avatar);
                         textView4.setText("Thankyou");
                     }
-                },1000);
+                },3000);
             }
         });
 
