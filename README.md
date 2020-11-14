@@ -12,15 +12,15 @@ the sum of 5's and 3's the shopkeeper display a message.
     <td>Main Page</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
+    <td><img src="app/src/main/res/drawable/app_images/splashscreen.jpg" width=270 height=480></td>
+    <td><img src="app/src/main/res/drawable/app_images/mainpage.jpg" width=270 height=480></td>
   </tr>
   <tr>
     <td>Amount valid</td>
     <td>Amount not valid</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
+    <td><img src="app/src/main/res/drawable/app_images/accepted.jpg" width=270 height=480></td>
+    <td><img src="app/src/main/res/drawable/app_images/not_accepted.jpg" width=270 height=480></td>
   </tr>
   </table>
