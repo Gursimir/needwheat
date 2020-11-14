@@ -6,7 +6,7 @@ the sum of 5's and 3's the shopkeeper display a message.
 ![alt text](app/src/main/res/mipmap-xxhdpi/ic_launcher.png)
 
 ## App ScreenShot
-<trable>
+<table>
   <tr>
     <td>Splash Screen</td>
     <td>Main Page</td>
