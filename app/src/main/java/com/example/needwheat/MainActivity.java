@@ -1,14 +1,13 @@
 package com.example.needwheat;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.os.Handler;
-import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -57,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
                     count5++;
                 }
             }
-            Long finalFlourAmount = flourAmount;
+            long finalFlourAmount = flourAmount;
             String count_3 = String.valueOf(count3),count_5 = String.valueOf(count5);
             new Handler().postDelayed(() -> {
                 imageView3.setImageResource(R.drawable.male_avatar);
